@@ -1,0 +1,6 @@
+num1=10
+num2=30
+def addtion(num1,num2):
+    return num1+num2
+ans=addtion(num1,num2)
+print(f"The addition of {num1} and {num2} is :{ans}")
