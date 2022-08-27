@@ -14,3 +14,7 @@ def multiplication(num1,num2):
     return num1*num2
 ans=multiplication(num1,num2)
 print(f"The multiplication of {num1} and {num2} is :{ans}")
+def division(num1,num2):
+    return num1/num2
+ans=division(num1,num2)
+print(f"The division of {num1} and {num2} is :{ans}")
