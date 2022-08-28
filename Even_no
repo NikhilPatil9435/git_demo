@@ -1,0 +1,17 @@
+number = 100
+
+
+def even(number):
+    try:
+        for i in range(number + 1):
+            if i % 2 == 0:
+                print(f"The given {i} is even")
+            else:
+                print(f"The given {i} is odd")
+    except Exception as e:
+        print("Error:", e)
+
+
+print("-----The list of Even and Odd Number----- ")
+even(number)
+print("Thank you...")
